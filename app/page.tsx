@@ -1,29 +1,14 @@
-import React from "react";
-import CharacterCard from "./components/CharacterCard";
-import { getSimpsons, SimpsonCharacter } from "../lib/api";
+import Link from "next/link";
 
 const HomePage = async () => {
-  let characters: SimpsonCharacter[] = [];
-  const imagetPattern = "https://cdn.thesimpsonsapi.com/200{image_path}"
-
-  try {
-    characters = await getSimpsons();
-  } catch (error) {
-    console.error(error);
-  }
 
   return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold mb-6">Simpsons Characters</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {characters?.map((char, index) => (
-          <CharacterCard
-            key={index}
-            name={char.name}
-            occupation={char.occupation}
-            image={imagetPattern.replace("{image_path}", char.portrait_path)}
-          />
-        ))}
+    <main className="p-8 bg-blue-500 h-screen">
+      <h1 className="text-5xl font-bold mb-6 text-center text-yellow-500">Simpsons</h1>
+      <div className="flex flex-col gap-4">
+        <Link href="/characters" className=" w-fit text-2xl text-white hover:text-yellow-500"> - Characters -</Link>
+        <Link href="/episodes" className=" w-fit text-2xl text-white hover:text-yellow-500"> - Episodes -</Link>
+        <Link href="/locations" className=" w-fit text-2xl text-white hover:text-yellow-500"> - Locations -</Link>
       </div>
     </main>
   );
