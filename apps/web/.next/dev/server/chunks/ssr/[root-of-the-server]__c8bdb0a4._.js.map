@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/xaviertadeoo/Desktop/NewProjects/test_react_next/apps/web/app/page.tsx"],"sourcesContent":["import Link from \"next/link\";\n\nconst HomePage = async () => {\n\n  return (\n    <main className=\"p-8 bg-blue-500 h-screen\">\n      <h1 className=\"text-5xl font-bold mb-6 text-center text-yellow-500\">Simpsons</h1>\n      <div className=\"flex flex-col gap-4\">\n        <Link href=\"/characters\" className=\" w-fit text-2xl text-white hover:text-yellow-500\"> - Characters -</Link>\n        <Link href=\"/episodes\" className=\" w-fit text-2xl text-white hover:text-yellow-500\"> - Episodes -</Link>\n        <Link href=\"/locations\" className=\" w-fit text-2xl text-white hover:text-yellow-500\"> - Locations -</Link>\n      </div>\n    </main>\n  );\n};\n\nexport default HomePage;\n"],"names":[],"mappings":";;;;;AAAA;;;AAEA,MAAM,WAAW;IAEf,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAAsD;;;;;;0BACpE,8OAAC;gBAAI,WAAU;;kCACb,8OAAC,0LAAI;wBAAC,MAAK;wBAAc,WAAU;kCAAmD;;;;;;kCACtF,8OAAC,0LAAI;wBAAC,MAAK;wBAAY,WAAU;kCAAmD;;;;;;kCACpF,8OAAC,0LAAI;wBAAC,MAAK;wBAAa,WAAU;kCAAmD;;;;;;;;;;;;;;;;;;AAI7F;uCAEe","debugId":null}}]
+}
