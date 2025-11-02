@@ -1,0 +1,13 @@
+
+
+> web@0.1.0 dev
+> next dev
+
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 16.0.0[39m[22m (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.150:3000
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 921ms
+ GET / [32m200[39m in 1188ms[2m (compile: 1133ms, render: 55ms)[22m
+ GET /characters [32m200[39m in 180ms[2m (compile: 172ms, render: 8ms)[22m

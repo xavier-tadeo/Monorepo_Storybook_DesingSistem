@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@myorg/ui": [
+                "packages/ui/src"
+            ]
+        }
+    }
+}
