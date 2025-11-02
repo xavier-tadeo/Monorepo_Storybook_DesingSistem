@@ -1,1 +1,149 @@
-[00:00:01.035] Server  LOG      ✓ Ready in 921ms
+[00:00:01.067] Server  LOG      ✓ Ready in 964ms
+[00:00:08.820] Server  LOG     [{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
+[00:00:11.287] Server  ERROR    ⨯ ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.418] Browser ERROR   ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.618] Browser ERROR   ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.622] Browser ERROR   ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.628] Server  ERROR    ⨯ ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.712] Browser ERROR   uncaughtError: Error: ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:11.867] Browser ERROR   ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:11.868] Browser ERROR   ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:26.332] Server  ERROR    ⨯ ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:26.417] Browser ERROR   uncaughtError: Error: ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:26.554] Browser ERROR   ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:26.554] Browser ERROR   ./apps/web/app/characters/page.tsx:1:1
+Module not found: Can't resolve '@ds/ui'
+> 1 | import { Button } from "@ds/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | const CharactersPage = async () => {
+  4 |   return (
+
+Import map: aliased to relative './pakages/ui/src' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found

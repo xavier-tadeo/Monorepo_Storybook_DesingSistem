@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/xaviertadeoo/Desktop/NewProjects/test_react_next/packages/ui/src/Button.tsx"],"sourcesContent":["import React from \"react\";\n\nexport const Button = ({ children }: { children: React.ReactNode }) => (\n    <button\n        style={{\n            background: \"#0070f3\",\n            color: \"white\",\n            padding: \"10px 16px\",\n            borderRadius: 8\n        }}\n    >\n        {children}\n    </button>\n);\n"],"names":[],"mappings":";;;;;;AAEO,MAAM,SAAS,CAAC,EAAE,QAAQ,EAAiC,iBAC9D,8OAAC;QACG,OAAO;YACH,YAAY;YACZ,OAAO;YACP,SAAS;YACT,cAAc;QAClB;kBAEC","debugId":null}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///Users/xaviertadeoo/Desktop/NewProjects/test_react_next/packages/ui/src/index.tsx"],"sourcesContent":["export * from \"./Button\";\n"],"names":[],"mappings":";AAAA","debugId":null}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":["file:///Users/xaviertadeoo/Desktop/NewProjects/test_react_next/apps/web/app/characters/page.tsx"],"sourcesContent":["import { Button } from \"@ds/ui\";\n\nconst CharactersPage = async () => {\n  return (\n    <main className=\"p-8\">\n      <Button>Click me</Button>\n      <h1 className=\"text-3xl font-bold mb-6\">Characters</h1>\n    </main>\n  );\n};\n\nexport default CharactersPage;"],"names":[],"mappings":";;;;;AAAA;AAAA;;;AAEA,MAAM,iBAAiB;IACrB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC,0IAAM;0BAAC;;;;;;0BACR,8OAAC;gBAAG,WAAU;0BAA0B;;;;;;;;;;;;AAG9C;uCAEe","debugId":null}}]
+}

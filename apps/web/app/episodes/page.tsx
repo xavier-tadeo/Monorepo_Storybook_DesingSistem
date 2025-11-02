@@ -1,4 +1,4 @@
-import { getSimpsons } from "@/lib/api";
+import { getSimpsons } from "@/app/lib/api";
 import EpisodeCard from "@/app/components/EpisodeCard";
 import { Episode } from "@/app/types/episodes";
 import ArrowBack from "@/app/components/ArrowBack";
