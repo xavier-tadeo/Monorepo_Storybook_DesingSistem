@@ -270,3 +270,4 @@ If you need interactivity, consider converting part of this to a Client Componen
   digest: [32m'3741693317'[39m
 }
  GET /characters [31m500[39m in 53ms[2m (compile: 24ms, render: 29ms)[22m
+[?25h
