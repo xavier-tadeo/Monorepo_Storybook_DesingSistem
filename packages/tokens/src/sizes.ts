@@ -1,0 +1,9 @@
+export const sizes = {
+    xs: "16px",
+    sm: "24px",
+    md: "32px",
+    lg: "48px",
+    xl: "64px",
+    "2xl": "96px",
+    "3xl": "128px",
+};
