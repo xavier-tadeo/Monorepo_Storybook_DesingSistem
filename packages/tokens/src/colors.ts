@@ -1,24 +1,27 @@
 export const colors = {
-    primary: "#0070f3",
-    secondary: "#7928ca",
-    success: "#10b981",
-    warning: "#f59e0b",
-    error: "#ef4444",
+    primary: "#E07A5F",
+    secondary: "#3D405B",
+    tertiary: "#81B29A",
 
-    background: "#ffffff",
-    text: "#111111",
+    success: "#2E7D32",
+    warning: "#EDC531",
+    error: "#D64545",
 
-    // Grayscale
+    background: "#FAFAFA",
+    surface: "#FFFFFF",
+    text: "#1A1A1A",
+    textMuted: "#6B7280",
+
     gray: {
-        50: "#f9fafb",
-        100: "#f3f4f6",
-        200: "#e5e7eb",
-        300: "#d1d5db",
-        400: "#9ca3af",
-        500: "#6b7280",
-        600: "#4b5563",
-        700: "#374151",
-        800: "#1f2937",
-        900: "#111827",
+        50: "#FAFAF9",
+        100: "#F5F5F4",
+        200: "#E7E5E4",
+        300: "#D6D3D1",
+        400: "#A8A29E",
+        500: "#78716C",
+        600: "#57534E",
+        700: "#44403C",
+        800: "#292524",
+        900: "#1C1917"
     },
 };
