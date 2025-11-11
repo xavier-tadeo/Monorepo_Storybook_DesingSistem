@@ -7,46 +7,28 @@
    - Network:      http://192.168.1.150:3001
 
  [32m[1m✓[22m[39m Starting...
- [32m[1m✓[22m[39m Ready in 343ms
- GET / [32m200[39m in 926ms[2m (compile: 854ms, render: 72ms)[22m
- [31m[1m⨯[22m[39m Error: The default export is not a React Component in "/page"
-    at [3mignore-listed frames[23m
- [31m[1m⨯[22m[39m Error: The default export is not a React Component in "/page"
-    at [3mignore-listed frames[23m {
-  page: [32m'/'[39m
-}
- [31m[1m⨯[22m[39m Error: The default export is not a React Component in "/page"
-    at [3mignore-listed frames[23m
- [31m[1m⨯[22m[39m Error: The default export is not a React Component in "/page"
-    at [3mignore-listed frames[23m {
-  page: [32m'/'[39m
-}
- GET / [31m500[39m in 403ms[2m (compile: 356ms, render: 47ms)[22m
- GET / [31m500[39m in 705ms[2m (compile: 700ms, render: 5ms)[22m
- [31m[1m⨯[22m[39m Error: The default export is not a React Component in "/page"
-    at [3mignore-listed frames[23m
- [31m[1m⨯[22m[39m Error: The default export is not a React Component in "/page"
-    at [3mignore-listed frames[23m {
-  page: [32m'/'[39m
-}
- GET / [31m500[39m in 220ms[2m (compile: 215ms, render: 4ms)[22m
- GET / [32m200[39m in 71ms[2m (compile: 24ms, render: 47ms)[22m
- GET / [32m200[39m in 49ms[2m (compile: 22ms, render: 27ms)[22m
- GET / [32m200[39m in 38ms[2m (compile: 18ms, render: 19ms)[22m
- [31m[1m⨯[22m[39m TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
-    at Button (../../packages/ui/src/Atoms/Button/Button.tsx:13:45)
-[0m [90m 11 |[39m     [33m...[39mprops
- [90m 12 |[39m }) [33m=>[39m {
-[31m[1m>[22m[39m[90m 13 |[39m     [36mconst[39m [isHovered[33m,[39m setIsHovered] [33m=[39m [33mReact[39m[33m.[39museState([36mfalse[39m)[33m;[39m
- [90m    |[39m                                             [31m[1m^[22m[39m
- [90m 14 |[39m
- [90m 15 |[39m     [36mconst[39m background [33m=[39m
- [90m 16 |[39m         variant [33m===[39m [32m"primary"[39m[0m {
-  digest: [32m'1099555314'[39m
-}
- GET / [32m200[39m in 46ms[2m (compile: 21ms, render: 25ms)[22m
- GET / [32m200[39m in 178ms[2m (compile: 47ms, render: 131ms)[22m
- [32m[1m✓[22m[39m Compiled in 5ms
- GET / [32m200[39m in 52ms[2m (compile: 31ms, render: 21ms)[22m
- [32m[1m✓[22m[39m Compiled in 8ms
+ [32m[1m✓[22m[39m Ready in 1226ms
+ GET / [32m200[39m in 880ms[2m (compile: 808ms, render: 72ms)[22m
+ GET / [32m200[39m in 61ms[2m (compile: 30ms, render: 32ms)[22m
+ GET / [32m200[39m in 55ms[2m (compile: 23ms, render: 32ms)[22m
+ GET / [32m200[39m in 91ms[2m (compile: 40ms, render: 51ms)[22m
+ GET / [32m200[39m in 60ms[2m (compile: 36ms, render: 24ms)[22m
+ GET / [32m200[39m in 92ms[2m (compile: 48ms, render: 44ms)[22m
+ GET / [32m200[39m in 52ms[2m (compile: 22ms, render: 31ms)[22m
+ GET / [32m200[39m in 44ms[2m (compile: 26ms, render: 18ms)[22m
+ GET / [32m200[39m in 47ms[2m (compile: 28ms, render: 19ms)[22m
+ GET / [32m200[39m in 44ms[2m (compile: 20ms, render: 23ms)[22m
+ GET / [32m200[39m in 40ms[2m (compile: 19ms, render: 21ms)[22m
+ GET / [32m200[39m in 37ms[2m (compile: 18ms, render: 18ms)[22m
+ GET / [32m200[39m in 38ms[2m (compile: 15ms, render: 22ms)[22m
+ GET / [32m200[39m in 39ms[2m (compile: 19ms, render: 20ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1527µs, render: 8ms)[22m
+ GET / [32m200[39m in 44ms[2m (compile: 23ms, render: 21ms)[22m
+ GET / [32m200[39m in 50ms[2m (compile: 24ms, render: 26ms)[22m
+ GET / [32m200[39m in 45ms[2m (compile: 22ms, render: 23ms)[22m
+ GET / [32m200[39m in 172ms[2m (compile: 92ms, render: 80ms)[22m
+ GET / [32m200[39m in 102ms[2m (compile: 55ms, render: 46ms)[22m
+ GET / [32m200[39m in 56ms[2m (compile: 31ms, render: 25ms)[22m
+ GET / [32m200[39m in 55ms[2m (compile: 31ms, render: 24ms)[22m
+ GET / [32m200[39m in 70ms[2m (compile: 38ms, render: 32ms)[22m
 [?25h

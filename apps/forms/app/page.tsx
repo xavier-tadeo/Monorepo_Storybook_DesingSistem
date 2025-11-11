@@ -1,9 +1,12 @@
 import { Button } from "@ds/ui";
+import { Text } from "@ds/ui";
 
 const HomePage = () => {
   return (
     <main className="p-8">
-      <h1 className="text-3xl font-bold mb-6 text-center text-yellow-500">Create your custom form</h1>
+      <div className="flex justify-center">
+        <Text size="2xl" color="secondary">{"Forms creating".toUpperCase()}</Text>
+      </div>
       <Button>Click me</Button>
     </main>
   );

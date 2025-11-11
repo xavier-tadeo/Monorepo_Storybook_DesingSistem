@@ -1,7 +1,1 @@
-[00:00:00.574] Server  LOG      ✓ Ready in 386ms
-[00:14:34.686] Server  LOG     [{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
-[00:14:37.650] Server  ERROR    ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
-[00:14:37.770] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
-[00:29:26.135] Server  LOG      ✓ Compiled in 6ms
-[00:39:50.405] Server  LOG      ✓ Compiled in 9ms
-[00:39:51.227] Browser ERROR   uncaughtError: ReferenceError: background is not defined
+[00:00:01.353] Server  LOG      ✓ Ready in 1162ms

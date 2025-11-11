@@ -29,6 +29,19 @@ const meta: Meta<typeof Text> = {
             control: "select",
             options: ["tighter", "normal", "wider"],
         },
+        color: {
+            control: "select",
+            options: [
+                "primary",
+                "secondary",
+                "tertiary",
+                "success",
+                "warning",
+                "error",
+                "text",
+                "textMuted",
+            ],
+        },
     },
 };
 
@@ -146,6 +159,77 @@ export const BodyText: StoryObj<typeof Text> = {
                 Another paragraph to demonstrate the spacing and flow of body text. The relaxed line height
                 makes it comfortable to read multiple paragraphs in sequence.
             </Text>
+        </div>
+    ),
+};
+
+// Colors
+export const Colors: StoryObj<typeof Text> = {
+    render: () => (
+        <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+            <div>
+                <h3 style={{ marginBottom: "12px", fontSize: "14px", fontWeight: 600, color: "#666" }}>
+                    Primary Colors
+                </h3>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                    <Text color="primary">Primary Color - #E07A5F</Text>
+                    <Text color="secondary">Secondary Color - #3D405B</Text>
+                    <Text color="tertiary">Tertiary Color - #81B29A</Text>
+                </div>
+            </div>
+
+            <div>
+                <h3 style={{ marginBottom: "12px", fontSize: "14px", fontWeight: 600, color: "#666" }}>
+                    Semantic Colors
+                </h3>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                    <Text color="success">Success Color - #2E7D32</Text>
+                    <Text color="warning">Warning Color - #EDC531</Text>
+                    <Text color="error">Error Color - #D64545</Text>
+                </div>
+            </div>
+
+            <div>
+                <h3 style={{ marginBottom: "12px", fontSize: "14px", fontWeight: 600, color: "#666" }}>
+                    Text Colors
+                </h3>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                    <Text color="text">Text Color (default) - #1A1A1A</Text>
+                    <Text color="textMuted">Text Muted Color - #6B7280</Text>
+                </div>
+            </div>
+
+            <div>
+                <h3 style={{ marginBottom: "12px", fontSize: "14px", fontWeight: 600, color: "#666" }}>
+                    Custom Colors
+                </h3>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                    <Text color="#FF6B6B">Custom Red - #FF6B6B</Text>
+                    <Text color="#4ECDC4">Custom Teal - #4ECDC4</Text>
+                    <Text color="#95E1D3">Custom Mint - #95E1D3</Text>
+                </div>
+            </div>
+
+            <div style={{
+                padding: "16px",
+                backgroundColor: "#3D405B",
+                borderRadius: "8px",
+                marginTop: "8px"
+            }}>
+                <h3 style={{
+                    marginBottom: "12px",
+                    fontSize: "14px",
+                    fontWeight: 600,
+                    color: "#FFF"
+                }}>
+                    On Dark Background
+                </h3>
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                    <Text color="#FFFFFF">White Text on Dark Background</Text>
+                    <Text color="#E07A5F">Primary Color on Dark Background</Text>
+                    <Text color="#81B29A">Tertiary Color on Dark Background</Text>
+                </div>
+            </div>
         </div>
     ),
 };
