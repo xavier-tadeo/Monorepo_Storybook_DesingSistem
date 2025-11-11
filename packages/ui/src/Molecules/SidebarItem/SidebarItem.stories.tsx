@@ -1,7 +1,7 @@
 import { SidebarItem } from "./SidebarItem";
 import type { Meta, StoryObj } from "@storybook/react";
 import { colors } from "@ds/tokens";
-import { Text } from "../../../Atoms/Text/Text";
+import { Text } from "../../Atoms/Text/Text";
 
 const meta: Meta<typeof SidebarItem> = {
     component: SidebarItem,
